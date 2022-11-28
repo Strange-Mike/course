@@ -184,7 +184,7 @@ export default function Home() {
             <animated.div className="relative w-full xl:w-[50%]" style={fadeIn}>
               <div className="absolute top-0 h-full w-full rotate-2 rounded-3xl bg-slate-800" />
               <Player>
-                <Youtube videoId="UAA9IwezlTA" />
+                <Youtube videoId="osrfnoIXv3A" />
                 <DefaultUi />
               </Player>
             </animated.div>
