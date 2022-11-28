@@ -486,7 +486,7 @@ export default function Home() {
           <div>
             <WidgetBot
               server="798690805464301588"
-              channel="798702383919530004"
+              channel="1038927789795065998"
               width="100%"
               className="h-[300px] border-b-4 border-orange-500 xl:h-[700px]"
             />
