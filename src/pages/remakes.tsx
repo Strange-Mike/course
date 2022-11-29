@@ -247,11 +247,11 @@ export default function Home() {
                 delay={200}
               >
                 {props => (
-                  <animated.span style={props}>
+                  <animated.span className="z-10" style={props}>
                     <Image
                       src={aboutImage}
                       alt="Strange Mike"
-                      className="z-10 hidden xl:block"
+                      className="hidden xl:block"
                     />
                   </animated.span>
                 )}
