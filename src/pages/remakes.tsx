@@ -184,7 +184,7 @@ export default function Home() {
             <animated.div className="relative w-full xl:w-[50%]" style={fadeIn}>
               <div className="absolute top-0 h-full w-full rotate-2 rounded-3xl bg-slate-800" />
               <Player>
-                <Youtube videoId="UAA9IwezlTA" />
+                <Youtube videoId="osrfnoIXv3A" />
                 <DefaultUi />
               </Player>
             </animated.div>
@@ -486,7 +486,7 @@ export default function Home() {
           <div>
             <WidgetBot
               server="798690805464301588"
-              channel="798702383919530004"
+              channel="1038927789795065998"
               width="100%"
               className="h-[300px] border-b-4 border-orange-500 xl:h-[700px]"
             />

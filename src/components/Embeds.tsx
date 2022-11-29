@@ -1,4 +1,4 @@
-import { FaSoundcloud, FaSpotify, FaYoutube } from 'react-icons/fa';
+import { FaSoundcloud, FaSpotify, FaYoutube, FaTiktok } from 'react-icons/fa';
 
 import classNames from 'classnames';
 import { useState } from 'react';
@@ -82,7 +82,7 @@ export const Embeds = () => {
             />
 
             <EmbedTab
-              icon={FaSpotify}
+              icon={FaTiktok}
               onClick={() => setActiveTab(3)}
               active={activeTab === 3}
             />
