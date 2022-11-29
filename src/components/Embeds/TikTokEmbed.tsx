@@ -9,7 +9,7 @@ const TikTokEmbed: React.FC = () => {
           width: '320px',
           maxHeight: '570px',
           borderRadius: '12px',
-          transform: 'scale(0.92) translateY(-45px)',
+          transform: 'scale(0.9) translateY(-45px)',
         }}
       >
         {' '}
