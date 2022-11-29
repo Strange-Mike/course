@@ -11,6 +11,7 @@ import { DefaultUiProps } from '@vime/react/dist/types/components/DefaultUi';
 
 import ScrollTransition from './ScrollTransition';
 import { vimeImport } from '../utils/vimeImport';
+import TikTokEmbed from './Embeds/TikTokEmbed';
 
 const Player = vimeImport<PlayerProps>('Player');
 const Youtube = vimeImport<YoutubeProps>('Youtube');
@@ -124,6 +125,10 @@ export const Embeds = () => {
               <Youtube videoId="PCKfOckq4IE" />
               <DefaultUi />
             </Player>
+
+            <div style={{ display: activeTab === 3 ? 'block' : 'none' }}>
+              <TikTokEmbed />
+            </div>
           </div>
         </animated.div>
       )}
